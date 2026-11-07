@@ -5,7 +5,7 @@
 # Blender Skills
 
 **94 Specialized Skills for Blender Artists.**
-**Transform Cursor, Claude Code, Kiro, and Codex into your Senior Technical Art team — not a tutorial bot.**
+**Transform Google Antigravity, Cursor, Claude Code, Kiro, and Codex into your Senior Technical Art team — not a tutorial bot.**
 
 [![Version](https://img.shields.io/badge/version-1.3.0-blue.svg)](version.json)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
@@ -26,7 +26,15 @@
 > **Marketplace listing is currently under review by Anthropic.**
 > Install directly from GitHub in the meantime.
 
-Works with **Cursor**, **Claude Code**, **Kiro**, and **Codex** — same skill pack, Blender MCP execution.
+Works with **Google Antigravity**, **Cursor**, **Claude Code**, **Kiro**, and **Codex** — same skill pack, Blender MCP execution.
+
+**Google Antigravity (Windows Automated)**
+```powershell
+git clone https://github.com/arjun988/blender-skills.git
+cd blender-skills
+.\setup_antigravity.ps1
+```
+*(Automatically sets up `uv`, installs the Blender MCP addon into your Blender versions, and configures `mcp_config.json` locally and globally).*
 
 **Claude Code**
 ```bash
@@ -134,6 +142,7 @@ Full guide: **[docs/BLENDER_MCP_SETUP.md](docs/BLENDER_MCP_SETUP.md)**
 
 | Config / Path | Client |
 |---------------|--------|
+| `mcp_config.json` + `.agents/skills/` | **Google Antigravity** |
 | `.cursor/mcp.json` + `.cursor/skills/` | Cursor |
 | `.mcp.json` + `.claude/skills/` | Claude Code |
 | Kiro skills dir + Blender MCP | Kiro |
@@ -215,6 +224,7 @@ docs/
 | Doc | Purpose |
 |-----|---------|
 | [QUICKSTART.md](QUICKSTART.md) | Installation and first steps |
+| [docs/ANTIGRAVITY_SETUP.md](docs/ANTIGRAVITY_SETUP.md) | Complete Google Antigravity guide |
 | [SKILLS_GUIDE.md](SKILLS_GUIDE.md) | Skill index, decision trees, workflows |
 | [docs/BLENDER_MCP_SETUP.md](docs/BLENDER_MCP_SETUP.md) | Blender MCP connection guide |
 | [CONTRIBUTING.md](CONTRIBUTING.md) | How to add skills and contribute |

@@ -1,8 +1,23 @@
 # Quick Start
 
-Get the Blender Skills Pack running in Cursor or Claude Code with Blender MCP.
+Get the Blender Skills Pack running in Google Antigravity, Cursor, or Claude Code with Blender MCP.
 
 ## 1. Install Skills
+
+### Google Antigravity (Automated — Recommended)
+
+Run the included PowerShell setup script:
+
+```powershell
+.\setup_antigravity.ps1
+```
+
+This installs `uv`, copies the Blender addon to your Blender installations, and sets up `mcp_config.json` locally and globally. Full setup guide: [docs/ANTIGRAVITY_SETUP.md](docs/ANTIGRAVITY_SETUP.md).
+
+Or manually copy skills to `.agents/skills/`:
+```powershell
+Copy-Item -Recurse -Force ".claude\skills\*" ".agents\skills\"
+```
 
 ### Claude Code (Plugin — Recommended)
 
