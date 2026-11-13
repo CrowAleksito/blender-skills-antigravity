@@ -1,5 +1,7 @@
 # BlenderMCP Tool Catalog
 
+> **Active `mcp-for-blender` Toolset (Antigravity):** `get_addon_status`, `get_scene_info`, `execute_blender_code`, `look`, `search_assets`, `import_asset`, `generate_3d`, `generate_gaussian_world`, `record_trajectory_feedback`, `disable_telemetry`. See [`../blender-orchestrator/references/mcp-execution-manual.md`](../blender-orchestrator/references/mcp-execution-manual.md) for exact schemas.
+
 Reference for agents when Blender MCP (`blender-mcp` by ahujasid) is connected.
 
 **Always read tool schemas from MCP before calling** — tool names may vary by version.

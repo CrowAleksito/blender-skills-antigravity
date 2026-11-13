@@ -107,7 +107,7 @@ Attach a photo or concept art and the agent matches it:
 
 | Category | Skills |
 |----------|--------|
-| **Orchestration** | [blender-director](.claude/skills/blender-director/) |
+| **Orchestration** | [blender-orchestrator](.agents/skills/blender-orchestrator/), [blender-director](.agents/skills/blender-director/) |
 | **Modeling** | blender-modeler, hard-surface, prop-artist, vehicle-artist, environment-artist, vegetation-artist, character-artist, creature-artist, character-archetypes |
 | **Production** | sculpting, retopology, uv-workflow, materials, texture-workflow, hair-groom, cloth-sim, lookdev |
 | **Technical** | geometry-nodes, lighting, camera-cinematography, rendering, compositing, animation, rigging, vfx-fx, physics-sim |

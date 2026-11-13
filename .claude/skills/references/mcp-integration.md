@@ -1,8 +1,10 @@
 # Blender MCP Integration Rules
 
+> **Antigravity Master Control Plane:** Read [`../blender-orchestrator/SKILL.md`](../blender-orchestrator/SKILL.md) and [`../blender-orchestrator/references/mcp-execution-manual.md`](../blender-orchestrator/references/mcp-execution-manual.md) first! In `mcp-for-blender` (v1.8+), invoke tools via `call_mcp_tool(ServerName="blender", ...)` and use **`look`** (`mode="viewport" | "camera" | "angles" | "frames"`) for all visual screenshots.
+
 When Blender MCP is available, **execute operations through MCP** instead of describing manual UI steps.
 
-**Setup:** See repo `docs/BLENDER_MCP_SETUP.md`. Project config: `.cursor/mcp.json` (Cursor) or `.mcp.json` (Claude Code).
+**Setup:** See repo `docs/ANTIGRAVITY_SETUP.md` or `docs/BLENDER_MCP_SETUP.md`. Project config: `mcp_config.json` (Antigravity), `.cursor/mcp.json` (Cursor), or `.mcp.json` (Claude Code).
 
 **Tool catalog:** See `mcp-tools.md` for BlenderMCP capabilities and bpy fallbacks.
 

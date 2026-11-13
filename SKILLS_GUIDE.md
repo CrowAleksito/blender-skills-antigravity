@@ -1,6 +1,6 @@
 # Blender Skills Guide
 
-Decision trees and workflow combinations for the Blender Skills Pack (**94 skills**).
+Decision trees and workflow combinations for the Blender Skills Pack (**95 skills**).
 
 ## Start Here
 
@@ -13,6 +13,7 @@ For any Blender asset task, **blender-director** analyzes the request and routes
 ## Skill Index
 
 ### Orchestration
+- **blender-orchestrator** — Master MCP connection, tool execution (`mcp-for-blender`), and 95-skill control plane
 - **blender-director** — Pipeline planning, skill routing, production briefs
 
 ### Modeling Disciplines
